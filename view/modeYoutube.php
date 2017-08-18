@@ -582,9 +582,13 @@ if (!empty($video)) {
                                 });
                             </script>
                         </div>
-
+                        </div>
+                         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                         <h1>Hello</h1>
+                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 bgWhite list-group-item">                            
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bgWhite list-group-item">                            
                         <?php
                         if (!empty($playlist_id)) {
                             include './include/playlist.php';
@@ -604,7 +608,7 @@ if (!empty($video)) {
                             <div class="col-lg-12 col-sm-12 col-xs-12 autoplay text-muted" style="display: none;">
                                 <strong>
                                     <?php
-                                    echo __("Up Next");
+                                    echo __("Recommended");
                                     ?>
                                 </strong>
                                 <span class="pull-right">
@@ -729,7 +733,7 @@ if (!empty($video)) {
                             });
                         </script>
                     </div>
-                    <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
+           
                 </div>
                 <?php
             } else {

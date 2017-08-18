@@ -17,7 +17,7 @@ if (!empty($ad)) {
 }
 ?>
 <div class="row main-video">
-    <div class="col-xs-12 col-sm-12 col-lg-2"></div>
+  <!--  <div class="col-xs-12 col-sm-12 col-lg-2"></div>      -->
     <div class="col-xs-12 col-sm-12 col-lg-8">
         <div id="videoContainer">
             <div id="floatButtons" style="display: none;">

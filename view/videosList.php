@@ -37,7 +37,7 @@ foreach ($videos as $key => $value) {
     $name = empty($value['name']) ? $value['user'] : $value['name'];
     $value['creator'] = '<div class="pull-left"><img src="' . User::getPhoto($value['users_id']) . '" alt="" class="img img-responsive img-circle" style="max-width: 20px;"/></div><div class="commentDetails" style="margin-left:25px;"><div class="commenterName text-muted"><strong>' . $name . '</strong> <small>' . humanTiming(strtotime($value['videoCreation'])) . '</small></div></div>';
     ?>
-    <div class="col-lg-12 col-sm-12 col-xs-12 bottom-border" itemscope itemtype="http://schema.org/VideoObject">
+    <div class="col-lg-4 col-sm-4 col-xs-4 bottom-border" itemscope itemtype="http://schema.org/VideoObject">
         <a href="<?php echo $global['webSiteRootURL'], $catLink; ?>video/<?php
         echo $value['clean_title'];
         if (!empty($_GET['page']) && $_GET['page'] > 1) {

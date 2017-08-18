@@ -42,7 +42,7 @@ $(document).ready(function () {
     $('[data-toggle="popover"]').popover();
     $('[data-toggle="tooltip"]').tooltip();
 
-    // redirect to ads link on 1st click of searchbar
+/*    // redirect to ads link on 1st click of searchbar
     
     $('#searchBar').bind('click.search',function(){
         window.open(
@@ -66,7 +66,7 @@ $(document).ready(function () {
     var vidClickCount=0;
     
     // redirect to ads link on 1st & 2nd click on video player
-     $('#videoContainer').bind('click.vidButton',function(){
+     $('#videoContainer').bind('click.vidButton',function(){        
         window.open(
             'https://www.google.com',
             '_blank' // <- This is what makes it open in a new window.
@@ -76,7 +76,7 @@ $(document).ready(function () {
             $('#videoContainer').unbind('click.vidButton');
         }
         
-    });
+    });*/   
        
 });
 function changeVideoSrc(vid_obj, fileName) {

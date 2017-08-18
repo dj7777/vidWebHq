@@ -49,7 +49,7 @@ if (empty($_SESSION['language'])) {
             <ul class="right-menus">
 
                 <?php
-                if (User::canUpload()) {
+              if (User::canUpload()) {
                     if (!empty($config->getEncoderURL())) {
                         ?>
                         <li>
@@ -94,8 +94,10 @@ if (empty($_SESSION['language'])) {
                         });
                     </script>
                 </li>
+                
             </ul>
         </li>
+        
     </ul>
 
 
