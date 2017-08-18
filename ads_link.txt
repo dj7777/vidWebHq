@@ -1,0 +1,38 @@
+1. direct link- <a href="https://syndication.exosrv.com/splash.php?idzone=2738732&return_url=" target="_blank">Click Here!</a>  //for search bar, whole page etc.
+2.Leaderboard_bottom-
+    <script type="text/javascript">
+        var ad_idzone = "2738734",
+            ad_width = "728",
+            ad_height = "90";
+      </script>
+    <script type="text/javascript" src="https://ads.exosrv.com/ads.js"></script>     
+       <noscript><a href="https://main.exosrv.com/img-click.php?idzone=2738734" target="_blank"><img src="https://syndication.exosrv.com/ads-iframe-display.php?idzone=2738734&output=img&type=728x90" width="728" height="90"></a></noscript>
+
+3.right_1_300_250- 
+
+            <script type="text/javascript">
+            var ad_idzone = "2738738",
+                ad_width = "300",
+                ad_height = "250";
+            </script>
+            <script type="text/javascript" src="https://ads.exosrv.com/ads.js"></script>
+            <noscript><a href="https://main.exosrv.com/img-click.php?idzone=2738738" target="_blank"><img src="https://syndication.exosrv.com/ads-iframe-display.php?idzone=2738738&output=img&type=300x250" width="300" height="250"></a></noscript>
+
+
+4. In Video-
+
+    <script type="text/javascript">
+        var exoOpts = {
+        cat: '2',
+        login: 'moneymaker_26',
+        idzone_300x250: '2732758',
+        idsite: '685296',
+        preroll: {},
+        pause: {},
+        postroll: {},
+        show_thumb: '1'
+        };
+        </script>
+        <script type="text/javascript" src="https://ads.exosrv.com/invideo.js"></script>
+
+5.
