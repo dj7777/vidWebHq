@@ -58,7 +58,7 @@ if ($video['type'] !== "audio") {
             } else {
                 ?>
                 <video poster="<?php echo $poster; ?>" controls crossorigin  width="auto" height="auto" 
-                class="video-js vjs-default-skin vjs-big-play-centered <?php echo $vjsClass; ?> " id="mainVideo"  data-setup='{"fluid": true }'>
+                class="video-js vjs-default-skin vjs-big-play-centered <?php echo $vjsClass; ?> " id="kt_player"  data-setup='{"fluid": true }'>
                     <source src="<?php echo $global['webSiteRootURL']; ?>videos/<?php echo $video['filename']; ?>.mp4" type="video/mp4">
                     <source src="<?php echo $global['webSiteRootURL']; ?>videos/<?php echo $video['filename']; ?>.webm" type="video/webm">
                     <p><?php echo __("If you can't view this video, your browser does not support HTML5 videos"); ?></p>

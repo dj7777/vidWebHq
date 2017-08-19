@@ -12,7 +12,7 @@ if (empty($_SESSION['language'])) {
     <ul class="items-container">
         <li>
             <ul class="left-side">
-                <li>
+         <!--       <li>
                     <button class="btn btn-default navbar-btn pull-left" id="buttonMenu" ><span class="fa fa-bars"></span></button>
                     <script>
                         $('#buttonMenu').click(function (event) {
@@ -29,7 +29,7 @@ if (empty($_SESSION['language'])) {
                         });
                     </script>
                 </li>
-                <li>
+             -->   <li>
                     <a class="navbar-brand" href="<?php echo $global['webSiteRootURL']; ?>" >
                         <img src="<?php echo $global['webSiteRootURL'], $config->getLogo(); ?>" alt="<?php echo $config->getWebSiteTitle(); ?>" class="img-responsive ">
                     </a>
@@ -100,6 +100,10 @@ if (empty($_SESSION['language'])) {
         
     </ul>
 
+
+                <?php
+                if (User::isLogged()) {
+                    ?>           
 
     <div id="sidebar" class="list-group-item" style="display: none;">
         <div id="sideBarContainer">
@@ -302,4 +306,7 @@ if (empty($_SESSION['language'])) {
             </ul>
         </div>
     </div>
+    <?php
+                }
+                ?>
 </nav>

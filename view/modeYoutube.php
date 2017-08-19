@@ -338,7 +338,9 @@ if (!empty($video)) {
                                 </div>
                             </div>
                         </div>
-
+                        <?php
+                                            if (User::isLogged()) {
+                                                ?>
                         <div class="row bgWhite list-group-item" id="shareDiv">
                             <div class="tabbable-panel">
                                 <div class="tabbable-line text-muted">
@@ -582,6 +584,9 @@ if (!empty($video)) {
                                 });
                             </script>
                         </div>
+                          <?php
+                                            } 
+                                                ?>
                         </div>
                          <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                          <h1>Hello</h1>

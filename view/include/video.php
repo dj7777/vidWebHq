@@ -16,9 +16,9 @@ if (!empty($ad)) {
     $logId = Video_ad::log($ad['id']);
 }
 ?>
-<div class="row main-video">
+<div class="row">
   <!--  <div class="col-xs-12 col-sm-12 col-lg-2"></div>      -->
-    <div class="col-xs-12 col-sm-12 col-lg-8">
+    <div class="col-xs-12 col-sm-12 col-lg-8 main-video">
         <div id="videoContainer">
             <div id="floatButtons" style="display: none;">
                 <p class="btn btn-outline btn-xs move">
@@ -34,7 +34,7 @@ if (!empty($ad)) {
                 echo " ad";
             }
             ?>">
-                <video poster="<?php echo $poster; ?>" controls crossorigin 
+              <!--  <video poster="<?php echo $poster; ?>" controls crossorigin 
                        class="embed-responsive-item video-js vjs-default-skin <?php echo $vjsClass; ?> vjs-big-play-centered" 
                        id="mainVideo"  data-setup='{ aspectRatio: "<?php echo $aspectRatio; ?>" }'>
                    
@@ -45,7 +45,42 @@ if (!empty($ad)) {
                         <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
                     </p>
                 </video>
-                <?php if (!empty($logId)) { ?>
+            -->   
+            <!-- include JavaScript -->
+<script type="text/javascript" src="../view/include/kt_player/kt_player.js"></script>
+
+<!-- define hidden container for player, id="kt_player" identifies it -->
+<div  class="embed-responsive-item container video-js vjs-default-skin <?php echo $vjsClass; ?> vjs-big-play-centered" 
+                        data-setup='{ aspectRatio: "<?php echo $aspectRatio; ?>" }' id="kt_player" style="visibility: hidden">
+    <a href="http://adobe.com/go/getflashplayer">This page requires Adobe Flash Player</a>
+</div>
+
+<!-- use player insertion code -->
+<script type="text/javascript">
+    // configure initialization variables (we used only 2 for simplicity)
+    var flashvars = {
+        video_url: "<?php echo $global['webSiteRootURL']; ?>videos/<?php echo $playNowVideo['filename']; ?>.mp4"//,
+      //  preview_url: 'http://domain.com/kt_player/demo/demo_preview.jpg'
+    };
+
+    // configure HTML object parameters
+    var params = {allowfullscreen: 'true', allowscriptaccess: 'always'};
+
+    // call player javascript
+    // 'kt_player' - player container identifier
+    // '/kt_player/kt_player.swf' - player file URL
+    // '100%' - player width
+    // '100%' - player height
+    // flashvars - the list of all initialization variables created above
+    // params - the list of all HTML object parameters created above
+    var player_obj = kt_player('kt_player', '../view/include/kt_player/kt_player.swf', '100%', '100%', flashvars, params);
+
+    // use player_obj to configure events handling (see JavaScript API section)
+</script>
+            
+            
+            
+             <?php if (!empty($logId)) { ?>
                     <div id="adUrl" class="adControl" ><?php echo __("Ad"); ?> <span class="time">0:00</span> <i class="fa fa-info-circle"></i> 
                         <a href="<?php echo $global['webSiteRootURL']; ?>adClickLog?video_ads_logs_id=<?php echo $logId; ?>&adId=<?php echo $ad['id']; ?>" target="_blank" ><?php
                             $url = parse_url($ad['redirect']);
