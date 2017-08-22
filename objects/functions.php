@@ -283,7 +283,7 @@ function parseDurationToSeconds($str) {
  * 
  * @global type $global
  * @param type $mail
- * call it before send mail to let YouPHPTube decide the method
+ * call it before send mail to let HQKing decide the method
  */
 function setSiteSendMessage(&$mail) {
     global $global;

@@ -44,7 +44,7 @@ $totalPages = ceil($total / $_POST['rowCount']);
 <html lang="<?php echo $_SESSION['language']; ?>">
     <head>
         <title><?php echo __('HQ'); ?> - <?php echo $config->getWebSiteTitle(); ?></title>
-        <meta name="generator" content="YouPHPTube - A Free Youtube Clone Script" />
+        <meta name="generator" content="HQKing - Website" />
         <?php
         include $global['systemRootPath'] . 'view/include/head.php';
         ?>

@@ -1,7 +1,7 @@
 <?php
 global $t;
-$t['<p>YouPHPTube! is an video-sharing website, The service was created by Daniel Neto in march 2017. </p><p>The software allow you to upload, view, share and comment on videos, and it makes use of WebM and H.264/MPEG-4 AVC to display a wide variety of user-generated and corporate media videos. </p><p>Best of all, YouPHPTube! is an open source solution that is freely available to everyone.</p>'] = "<p> يوفبتوب! هو موقع مشاركة الفيديو، تم إنشاء الخدمة من قبل دانيال نيتو في مارس 2017. </p><p> البرنامج يسمح لك لتحميل وعرض ومشاركة والتعليق على أشرطة الفيديو، ويستفيد من ويب و H.264 / مبيغ-4 أفك لعرض مجموعة واسعة من أشرطة الفيديو وسائل الإعلام التي أنشأها المستخدم والشركات. </p><p> أفضل للجميع، يوفبتوب! هو حل مفتوح المصدر متاح مجانا للجميع. </p>";
-$t['About YouPHPTube!'] = "حول يوفبتوب!";
+$t['<p>VideoWebsite! is an video-sharing website, The service was created by Daniel Neto in march 2017. </p><p>The software allow you to upload, view, share and comment on videos, and it makes use of WebM and H.264/MPEG-4 AVC to display a wide variety of user-generated and corporate media videos. </p><p>Best of all, VideoWebsite! is an open source solution that is freely available to everyone.</p>'] = "<p> يوفبتوب! هو موقع مشاركة الفيديو، تم إنشاء الخدمة من قبل دانيال نيتو في مارس 2017. </p><p> البرنامج يسمح لك لتحميل وعرض ومشاركة والتعليق على أشرطة الفيديو، ويستفيد من ويب و H.264 / مبيغ-4 أفك لعرض مجموعة واسعة من أشرطة الفيديو وسائل الإعلام التي أنشأها المستخدم والشركات. </p><p> أفضل للجميع، يوفبتوب! هو حل مفتوح المصدر متاح مجانا للجميع. </p>";
+$t['About VideoWebsite!'] = "حول يوفبتوب!";
 $t['About'] = "حول";
 $t['Activate'] = "تفعيل";
 $t['Active'] = "نشيط";
@@ -89,7 +89,7 @@ $t['Unable to open file!'] = "غير قادر على فتح ملف!";
 $t['Update Now'] = "تحديث الان";
 $t['Update the site configuration'] = "تحديث تكوين الموقع";
 $t['Update version'] = "تحديث الإصدار";
-$t['Update YouPHPTube System'] = "تحديث نظام يوفبتيوب";
+$t['Update VideoWebsite System'] = "تحديث نظام يوفبتيوب";
 $t['Update your user'] = "تحديث المستخدم";
 $t['Upload your file'] = "حمل الملف";
 $t['Use one of the recommended resolutions'] = "استخدم أحد القرارات الموصى بها";
@@ -110,7 +110,7 @@ $t['Website'] = "موقع الكتروني";
 $t['Welcome %s, update your informations'] = "مرحبا %s، تحديث المعلومات الخاصة بك";
 $t['Word Translations'] = "ترجمة الكلمات";
 $t['Yes, delete it!'] = "نعم، حذفه!";
-$t['You are running YouPHPTube version %s!'] = "أنت تقوم بتشغيل٪ يوفبتيوب الإصدار %s!";
+$t['You are running VideoWebsite version %s!'] = "أنت تقوم بتشغيل٪ يوفبتيوب الإصدار %s!";
 $t['You can not manager categories'] = "لا يمكنك إدارة الفئات";
 $t['You can not manager users'] = "لا يمكنك إدارة المستخدمين";
 $t['You can not manager videos'] = "لا يمكنك إدارة مقاطع الفيديو";

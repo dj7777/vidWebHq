@@ -14,7 +14,7 @@ $files = scandir($dir, 1);
 $array = $arrayOrphan = $arrayNotOrphan = array();
 foreach ($files as $value) {
     $filename = $dir . $value;
-    if (is_dir($filename) || $value == 'configuration.php' || $value == 'youphptube.log') {
+    if (is_dir($filename) || $value == 'configuration.php' || $value == 'HQKing.log') {
         continue;
     }
     $mainName = getMainName($value);

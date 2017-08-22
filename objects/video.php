@@ -202,7 +202,7 @@ class Video {
         $res = $global['mysqli']->query('select 1 from `videos_group_view` LIMIT 1');
         if (!$res) {
             if (User::isAdmin()) {
-                $_GET['error'] = "You need to Update YouPHPTube to version 2.3 <a href='{$global['webSiteRootURL']}update/'>Click here</a>";
+                $_GET['error'] = "You need to Update HQKing to version 2.3 <a href='{$global['webSiteRootURL']}update/'>Click here</a>";
             }
             return "";
         }
@@ -988,7 +988,7 @@ class Video {
         $obj = new stdClass();
         $obj->error = true;
 
-        $target = $global['YouPHPTubeURL-encoder'] . "queue.php";
+        $target = $global['HQKingURL-encoder'] . "queue.php";
         $postFields = array(
             'fileURI' => $global['webSiteRootURL'] . "videos/original_{$this->getFilename()}",
             'filename' => $this->getFilename(),

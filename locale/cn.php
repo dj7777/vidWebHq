@@ -1,7 +1,7 @@
 <?php
 global $t;
-$t['<p>YouPHPTube! is an video-sharing website, The service was created by Daniel Neto in march 2017. </p><p>The software allow you to upload, view, share and comment on videos, and it makes use of WebM and H.264/MPEG-4 AVC to display a wide variety of user-generated and corporate media videos. </p><p>Best of all, YouPHPTube! is an open source solution that is freely available to everyone.</p>'] = "<p> YouPHPTube！是一个视频分享网站，该服务由Daniel Neto于2017年3月制作。</p><p>该软件允许您上传，查看，分享和评论视频，并利用WebM和H.264 / MPEG-4 AVC显示各种用户生成的和企业的媒体视频。 </p><p>最重要的是，YouPHPTube！是一个免费提供给大家的开源解决方案。</p>";
-$t['About YouPHPTube!'] = "关于你PHPTube！";
+$t['<p>VideoWebsite! is an video-sharing website, The service was created by Daniel Neto in march 2017. </p><p>The software allow you to upload, view, share and comment on videos, and it makes use of WebM and H.264/MPEG-4 AVC to display a wide variety of user-generated and corporate media videos. </p><p>Best of all, VideoWebsite! is an open source solution that is freely available to everyone.</p>'] = "<p> VideoWebsite！是一个视频分享网站，该服务由Daniel Neto于2017年3月制作。</p><p>该软件允许您上传，查看，分享和评论视频，并利用WebM和H.264 / MPEG-4 AVC显示各种用户生成的和企业的媒体视频。 </p><p>最重要的是，VideoWebsite！是一个免费提供给大家的开源解决方案。</p>";
+$t['About VideoWebsite!'] = "关于你PHPTube！";
 $t['About'] = "关于";
 $t['Activate'] = "启用";
 $t['Active'] = "活性";
@@ -89,7 +89,7 @@ $t['Unable to open file!'] = "无法打开文件！";
 $t['Update Now'] = "现在更新";
 $t['Update the site configuration'] = "更新站点配置";
 $t['Update version'] = "更新版本";
-$t['Update YouPHPTube System'] = "更新YouPHPTube系统";
+$t['Update VideoWebsite System'] = "更新VideoWebsite系统";
 $t['Update your user'] = "更新您的用户";
 $t['Upload your file'] = "上传你的文件";
 $t['Use one of the recommended resolutions'] = "使用推荐的分辨率之一";
@@ -110,7 +110,7 @@ $t['Website'] = "网站";
 $t['Welcome %s, update your informations'] = "欢迎%s，更新您的信息";
 $t['Word Translations'] = "词翻译";
 $t['Yes, delete it!'] = "是的，删除它！";
-$t['You are running YouPHPTube version %s!'] = "你正在运行YouPHPTube版本%s！";
+$t['You are running VideoWebsite version %s!'] = "你正在运行VideoWebsite版本%s！";
 $t['You can not manager categories'] = "你不能管理类别";
 $t['You can not manager users'] = "你不能管理用户";
 $t['You can not manager videos'] = "你不能管理视频";

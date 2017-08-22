@@ -1,7 +1,7 @@
 <?php
 global $t;
-$t['<p>YouPHPTube! is an video-sharing website, The service was created by Daniel Neto in march 2017. </p><p>The software allow you to upload, view, share and comment on videos, and it makes use of WebM and H.264/MPEG-4 AVC to display a wide variety of user-generated and corporate media videos. </p><p>Best of all, YouPHPTube! is an open source solution that is freely available to everyone.</p>'] = "<p>YouPHPTube! Est un site de partage de vidéos, le service a été créé par Daniel Neto en mars 2017. </p><p> Le logiciel vous permet de télécharger, de visualiser, de partager et de commenter des vidéos, et il utilise WebM et H.264 / MPEG-4 AVC pour afficher une grande variété de vidéos multimédias générées par les utilisateurs et d'entreprise. </p><p> Le meilleur de tous, YouPHPTube! Est une solution open source qui est disponible gratuitement pour tous.</p>";
-$t['About YouPHPTube!'] = "À propos de YouPHPTube !";
+$t['<p>VideoWebsite! is an video-sharing website, The service was created by Daniel Neto in march 2017. </p><p>The software allow you to upload, view, share and comment on videos, and it makes use of WebM and H.264/MPEG-4 AVC to display a wide variety of user-generated and corporate media videos. </p><p>Best of all, VideoWebsite! is an open source solution that is freely available to everyone.</p>'] = "<p>VideoWebsite! Est un site de partage de vidéos, le service a été créé par Daniel Neto en mars 2017. </p><p> Le logiciel vous permet de télécharger, de visualiser, de partager et de commenter des vidéos, et il utilise WebM et H.264 / MPEG-4 AVC pour afficher une grande variété de vidéos multimédias générées par les utilisateurs et d'entreprise. </p><p> Le meilleur de tous, VideoWebsite! Est une solution open source qui est disponible gratuitement pour tous.</p>";
+$t['About VideoWebsite!'] = "À propos de VideoWebsite !";
 $t['About'] = "Sur";
 $t['Activate'] = "Activer";
 $t['Active'] = "actif";
@@ -90,7 +90,7 @@ $t['Type'] = "Type";
 $t['Update Now'] = "Mettre à jour maintenant";
 $t['Update the site configuration'] = "Mettre à jour la configuration du site";
 $t['Update version'] = "Version de mise à jour";
-$t['Update YouPHPTube System'] = "Mise à jour du système YouPHPTube";
+$t['Update VideoWebsite System'] = "Mise à jour du système VideoWebsite";
 $t['Update your user'] = "Mettre à jour votre utilisateur";
 $t['Upload your file'] = "Téléchargez votre fichier";
 $t['Use one of the recommended resolutions'] = "Utilisez l'une des résolutions recommandées";
@@ -111,7 +111,7 @@ $t['Website'] = "Site Internet";
 $t['Welcome %s, update your informations'] = "Bienvenue %s, mettez à jour vos informations";
 $t['Word Translations'] = "Traductions de mots";
 $t['Yes, delete it!'] = "Oui, supprimez-le !";
-$t['You are running YouPHPTube version %s!'] = "Vous utilisez YouPHPTube version %s !";
+$t['You are running VideoWebsite version %s!'] = "Vous utilisez VideoWebsite version %s !";
 $t['You can not manager categories'] = "Vous ne pouvez pas gérer les catégories";
 $t['You can not manager users'] = "Vous ne pouvez pas gérer les utilisateurs";
 $t['You can not manager videos'] = "Vous ne pouvez pas créer des vidéos de manager";

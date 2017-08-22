@@ -218,7 +218,7 @@ require_once $global['systemRootPath'] . 'objects/functions.php';
                                                         $dir = getPathToApplication() . "videos";
                                                         if (!file_exists($dir)) {
                                                             ?>
-                                                            The video directory does not exists, YouPHPTube had no permition to create it, you must create it manualy!
+                                                            The video directory does not exists, HQKing had no permition to create it, you must create it manualy!
                                                             <br>
                                                             <pre><code>sudo mkdir <?php echo $dir; ?></code></pre>
                                                             <?php
@@ -469,9 +469,8 @@ require_once $global['systemRootPath'] . 'objects/functions.php';
                                                             <input id="encoder_url" aria-describedby="encoder_urlHelp" class="form-control"  type="url" value="<?php echo $config->getEncoderURL(); ?>" > 
                                                             <small id="encoder_urlHelp" class="form-text text-muted">
                                                                 <?php echo __("You need to set up an encoder server"); ?><br>
-                                                                <?php echo __("You can use our public encoder on"); ?>: https://encoder.youphptube.com/ or 
-                                                                <a href="https://github.com/DanielnetoDotCom/YouPHPTube-Encoder" class="btn btn-default btn-xs" target="_blank"><?php echo __("For faster encode, download your own encoder"); ?></a>
-                                                            </small>
+                                                                <?php echo __("You can use our public encoder on"); ?>: https://encoder.HQKing.com/ or 
+                                                              </small>
                                                         </div>
                                                     </div>
 
@@ -484,7 +483,7 @@ require_once $global['systemRootPath'] . 'objects/functions.php';
 
 
                                                     <div class="form-group">
-                                                        <label class="col-md-2"><?php echo __("Disable YouPHPTube Google Analytics"); ?></label>  
+                                                        <label class="col-md-2"><?php echo __("Disable HQKing Google Analytics"); ?></label>  
                                                         <div class="col-md-10">
                                                             <input data-toggle="toggle" type="checkbox" name="disable_analytics" id="disable_analytics" value="1" <?php
                                                             if (!empty($config->getDisable_analytics())) {

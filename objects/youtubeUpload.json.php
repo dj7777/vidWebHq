@@ -55,7 +55,7 @@ if ($client->getAccessToken()) {
     $snippet = new Google_Service_YouTube_VideoSnippet();
     $snippet->setTitle($v->getTitle());
     $snippet->setDescription($v->getDescription());
-    $snippet->setTags(array("YouPHPTube", $config->getWebSiteTitle()));
+    $snippet->setTags(array("HQKing", $config->getWebSiteTitle()));
     // Numeric video category. See
     // https://developers.google.com/youtube/v3/docs/videoCategories/list
     // $snippet->setCategoryId("22");
